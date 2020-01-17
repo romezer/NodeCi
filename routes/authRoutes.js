@@ -1,4 +1,5 @@
 const passport = require('passport');
+const cleanCache = require('../middlewares/cleanCache');
 
 module.exports = app => {
   app.get(
